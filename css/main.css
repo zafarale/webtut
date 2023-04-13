@@ -1,0 +1,33 @@
+header {
+    height: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    border-bottom: 1px solid gray;
+}
+header a.logo{
+    border-right: 1px solid gray;
+}
+
+header nav {
+    height: inherit;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: inherit;
+}
+header nav ul li {
+    display: block;
+    height: inherit;
+    border-right: 1px solid gray;
+}
+
+header nav ul li a{
+    display: inline-block;
+    height: inherit;
+    width: 100%;
+    text-align: center;
+}
